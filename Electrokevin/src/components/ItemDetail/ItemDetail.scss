@@ -1,0 +1,146 @@
+.container_item_detail {
+    width: 300px;
+    margin: 20px;
+    background-color: rgb(41, 49, 44);
+    border-radius: 15px;
+    padding-bottom: 28px;
+    padding-top: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media screen and (max-width: 370px){
+        width: 250px;
+    }
+
+    @media screen and (max-width: 293px){
+        width: 190px;
+    }
+
+    @media screen and (max-width: 238px){
+        width: 140px;
+    }
+
+    @media screen and (max-width: 189px){
+        width: 110px;
+    }
+
+    @media screen and (max-width: 144px){
+        width: 75px;
+    }
+
+    @media screen and (max-width: 117px){
+        width: 50px;
+    }
+
+    @media screen and (max-width: 99px){
+        width: 30px;
+    }
+
+    @media screen and (max-width: 68px){
+        width: 28px;
+    }
+
+    .name_detail {
+        text-align: center;
+        margin-bottom: 5px;
+        padding: 0 0 9px 0px;
+        color: #D9D4B5;
+        font-size: 19px;
+
+        @media screen and (max-width:370px){
+            font-size: 14px;
+        }
+
+        @media screen and (max-width: 238px){
+            font-size: 10px;
+        }
+
+        @media screen and (max-width: 189px){
+            font-size: 5px;
+        }
+
+        @media screen and (max-width: 123px){
+            font-size: 2px;
+        }
+    }
+
+    img {
+        width: 100%;
+        border: 15px rgb(41, 49, 44) solid;
+        border-radius: 40px;
+        margin: 0 0 10px 0;
+
+    }
+
+    .model_detail {
+        text-align: center;
+        margin-bottom: 2px;
+        color: #D9D4B5;
+        font-size: 19px;
+
+        @media screen and (max-width: 370px){
+            font-size: 17px;
+        }
+
+        @media screen and (max-width: 238px){
+            font-size: 10px;
+        }
+
+        @media screen and (max-width: 189px){
+            font-size: 5px;
+        }
+
+        @media screen and (max-width: 123px){
+            font-size: 2px;
+        }
+    }
+
+    .precio_detail {
+        text-align: center;
+        margin-bottom: 5px;
+        padding: 6px;
+        color: #D9D4B5;
+        font-size: 19px;
+
+        @media screen and (max-width: 370px){
+            font-size: 17px;
+            margin-top: 10px;
+        }
+
+        @media screen and (max-width: 238px){
+            font-size: 10px;
+        }
+
+        @media screen and (max-width: 189px){
+            font-size: 5px;
+        }
+
+        @media screen and (max-width: 123px){
+            font-size: 2px;
+        }
+    }
+
+    .button_terminar_compra {
+        background-color: #8C8B2E;
+        padding: 5px;
+        border-radius: 7px;
+        color: #D9D4B5;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        @media screen and (max-width: 239px){
+            font-size: 10px;
+        }
+
+        @media screen and (max-width: 174px){
+            font-size: 5px;
+        }
+
+        @media screen and (max-width: 120px){
+            font-size: 2px;
+        }
+
+    }
+}

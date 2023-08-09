@@ -1,0 +1,110 @@
+.cards {
+    width: 300px;
+    margin: 20px;
+    background-color: rgb(41, 49, 44);
+    border-radius: 15px;
+    padding-bottom: 20px;
+
+    .card_img img {
+        width: 100%;
+        border: 15px rgb(41, 49, 44) solid;
+        border-radius: 40px;
+    }
+
+    .card_body .card_title {
+        text-align: center;
+        margin-bottom: 5px;
+        padding: 6px;
+        color: #D1C280;
+        font-size: 17px;
+
+        @media screen and (max-width:211px){
+            font-size: 9px;
+        }
+
+        @media screen and (max-width:138px){
+            font-size: 5px;
+        }
+
+        @media screen and (max-width:91px){
+            font-size: 1px;
+        }
+    }
+    
+    .card_body .card_description {
+        text-align: center;
+        margin-bottom: 6px;
+        padding: 6px;
+        color: #D1C280;
+        font-size: 16px;
+
+        @media screen and (max-width:211px){
+            font-size: 7px;
+        }
+
+        @media screen and (max-width:138px){
+            font-size: 5px;
+        }
+
+        @media screen and (max-width:91px){
+            font-size: 1px;
+        }
+    }
+    
+    .card_body .card_price {
+        text-align: center;
+        margin-bottom: 10px;
+        padding: 5px;
+        color: #D1C280;
+        font-size: 13px;
+
+        @media screen and (max-width:211px){
+            font-size: 7px;
+        }
+
+        @media screen and (max-width:138px){
+            font-size: 5px;
+        }
+
+        @media screen and (max-width:91px){
+            font-size: 1px;
+        }
+    }
+
+    .boton_ver_mas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .card_boton_link {
+            color: #D1C280;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 7px;
+            border: 6px solid #5E704C;
+            background-color: #5E704C;
+
+            @media screen and (max-width:211px){
+                font-size: 8px;
+            }
+
+            @media screen and (max-width:138px){
+                font-size: 4px;
+            }
+
+            @media screen and (max-width:91px){
+                font-size: 1px;
+            }
+        }
+    }
+}
+
+.card_boton_link:hover {
+    background-color:#436646;
+    border: 6px solid #436646;
+}
+
+.cards:hover {
+    box-shadow: 3.9px 7.8px 7.8px hsl(0deg 0% 0% / 0.38);
+}
+

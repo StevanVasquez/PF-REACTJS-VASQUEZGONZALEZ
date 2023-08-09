@@ -1,0 +1,102 @@
+.item_count {
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .botones_contador {
+        margin-bottom: 20px;
+
+        .button-count-menos {
+            background-color: #5C5731;
+            padding: 4px 10px;
+            border-radius: 5px;
+            color: #D6D2AA;
+
+            @media screen and (max-width: 238px){
+                font-size: 10px;
+            }
+
+            @media screen and (max-width: 189px){
+                font-size: 5px;
+                padding: 4px 4px;
+            }
+
+            @media screen and (max-width: 117px){
+                font-size: 1px;
+                padding: 1px 1px;
+            }
+        }
+
+        .cantidad-count {
+            background-color: #3D3914;
+            padding: 4px 6px;
+            color: wheat;
+            font-size: 14px;
+
+            @media screen and (max-width: 238px){
+                font-size: 10px;
+            }
+
+            @media screen and (max-width: 189px){
+                font-size: 5px;
+                padding: 4px 4px;
+            }
+
+            @media screen and (max-width: 117px){
+                font-size: 1px;
+                padding: 1px 1px;
+            }
+        }
+
+
+
+        .button-count-mas {
+            background-color: #5C5731;
+            padding: 4px 10px;
+            border-radius: 5px;
+            color: #D6D2AA;
+
+            @media screen and (max-width: 238px){
+                font-size: 10px;
+            }
+
+            @media screen and (max-width: 189px){
+                font-size: 5px;
+                padding: 4px 4px;
+            }
+
+            @media screen and (max-width: 117px){
+                font-size: 1px;
+                padding: 1px 1px;
+            }
+        }
+    }
+    
+    .button_agregar_carrito {
+        background-color: #8C8B2E;
+        padding: 4px 9px;
+        border-radius: 5px;
+        color: #D6D2AA;
+
+        @media screen and (max-width: 238px){
+            font-size: 10px;
+        }
+
+        @media screen and (max-width: 189px){
+            font-size: 5px;
+        }
+
+        @media screen and (max-width: 123px){
+            font-size: 2px;
+        }
+
+        @media screen and (max-width: 68px){
+            font-size: 0;
+        }
+    }
+
+}
+
+

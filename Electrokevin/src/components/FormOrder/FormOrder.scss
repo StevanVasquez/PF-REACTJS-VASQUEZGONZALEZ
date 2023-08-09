@@ -1,0 +1,334 @@
+.container_principal_compra_completada {
+    padding-top: 95px;
+}
+
+.compra_completada {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+    margin-top: 60px;
+
+    .compra_completada_title {
+        font-size: 40px;
+        color: #D9D4B5;
+
+        @media screen and (max-width:691px){
+            font-size: 30px;
+        }
+
+        @media screen and (max-width:516px){
+            font-size: 26px;
+        }
+
+        @media screen and (max-width:447px){
+            font-size: 20px;
+        }
+
+        @media screen and (max-width:352px){
+            font-size: 16px;
+        }
+
+        @media screen and (max-width:299px){
+            font-size: 10px;
+        }
+
+        @media screen and (max-width:204px){
+            font-size: 6px;
+        }
+
+        @media screen and (max-width:127px){
+            font-size: 3px;
+        }
+
+        @media screen and (max-width:70px){
+            font-size: 0.1px;
+        }
+    }
+
+    .compra_completada_emoticon {
+        font-size: 40px;
+        color: #D9D4B5;
+
+        @media screen and (max-width:691px){
+            font-size: 30px;
+        }
+
+        @media screen and (max-width:516px){
+            font-size: 26px;
+        }
+
+        @media screen and (max-width:447px){
+            font-size: 20px;
+        }
+
+        @media screen and (max-width:352px){
+            font-size: 16px;
+        }
+
+        @media screen and (max-width:299px){
+            font-size: 10px;
+        }
+
+        @media screen and (max-width:204px){
+            font-size: 6px;
+        }
+
+        @media screen and (max-width:127px){
+            font-size: 3px;
+        }
+
+        @media screen and (max-width:70px){
+            font-size: 0.1px;
+        }
+    }
+}
+
+.numero_orden {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .orden_No {
+        font-size: 20px;
+        color: #D9D4B5;
+        font-weight: bold;
+
+        @media screen and (max-width:447px){
+            font-size: 16px;
+        }
+
+        @media screen and (max-width:352px){
+            font-size: 14px;
+        }
+
+        @media screen and (max-width:299px){
+            font-size: 9px;
+        }
+
+        @media screen and (max-width:204px){
+            font-size: 4px;
+        }
+
+        @media screen and (max-width:127px){
+            font-size: 1px;
+        }
+
+        @media screen and (max-width:70px){
+            font-size: 0.1px;
+        }
+    }
+
+    .ref_orden {
+        background-color: #4D4B29;
+        padding: 5px;
+        border-radius: 7px;
+
+        @media screen and (max-width:447px){
+            font-size: 16px;
+        }
+
+        @media screen and (max-width:352px){
+            font-size: 14px;
+        }
+
+        @media screen and (max-width:299px){
+            font-size: 9px;
+        }
+
+        @media screen and (max-width:204px){
+            font-size: 4px;
+        }
+
+        @media screen and (max-width:127px){
+            font-size: 1px;
+        }
+
+        @media screen and (max-width:70px){
+            font-size: 0.1px;
+        }
+    }
+}
+
+.regresar_al_inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 46px;
+    
+    .buton_regresar {
+        background-color: #7A7628;
+        padding: 7px;
+        border-radius: 5px;
+        color: #D9D4B5;
+        font-size: 25px;
+
+        @media screen and (max-width:447px){
+            font-size: 16px;
+        }
+
+        @media screen and (max-width:204px){
+            font-size: 9px;
+        }
+
+        @media screen and (max-width:127px){
+            font-size: 3px;
+        }
+
+        @media screen and (max-width:70px){
+            font-size: 0.1px;
+        }
+    }
+}
+
+.container_principal_formulario {
+    padding-top: 115px;
+}
+
+.formulario_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4px;
+
+    .formulario_text {
+        font-size: 38px;
+        color: #D9D4B5;
+        margin-top: 24px;
+
+        @media screen and (max-width: 567px){
+            font-size: 30px;
+        }
+
+        @media screen and (max-width: 445px){
+            font-size: 25px;
+        }
+
+        @media screen and (max-width: 372px){
+            font-size: 19px;
+        }
+
+        @media screen and (max-width: 290px){
+            font-size: 14px;
+        }
+
+        @media screen and (max-width: 226px){
+            font-size: 9px;
+        }
+
+        @media screen and (max-width: 152px){
+            font-size: 3px;
+        }
+    }
+
+    .formulario_description {
+        font-size: 24px;
+        color: #D9D4B5;
+
+        @media screen and (max-width: 567px){
+            font-size: 20px;
+        }
+
+        @media screen and (max-width: 445px){
+            font-size: 16px;
+        }
+
+        @media screen and (max-width: 372px){
+            font-size: 14px;
+        }
+
+        @media screen and (max-width: 326px){
+            font-size: 12px;
+        }
+
+        @media screen and (max-width: 290px){
+            font-size: 9px;
+        }
+
+        @media screen and (max-width: 226px){
+            font-size: 5px;
+        }
+
+        @media screen and (max-width: 201px){
+            font-size: 2px;
+        }
+
+        @media screen and (max-width: 152px){
+            font-size: 1px;
+        }
+    }
+}
+
+.form_container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px 10px;
+
+    .input_form {
+        background-color: #C6C59A;
+        border-color: #C5C387;
+
+    }
+}
+
+.aviso_validacion {
+    color: whitesmoke;
+    background-color: #e35821;
+    padding: 5px;
+    border-radius: 12px;
+}
+
+.input_form:hover {
+    background-color: #787528;
+    border-color: #464723;
+    color:#C6C59A;
+}
+
+.input_form::placeholder {
+    color: #4A4927;
+}
+
+
+.submit_enviar_datos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 18px;
+    
+    .boton_enviar_datos {
+        background-color: #7A7628;
+        padding: 7px;
+        border-radius: 5px;
+        color: #D9D4B5;
+        font-size: 20px;
+
+        @media screen and (max-width: 201px){
+            font-size: 12px;
+        }
+
+        @media screen and (max-width: 152px){
+            font-size: 10px;
+        }
+
+        @media screen and (max-width: 145px){
+            font-size: 6px;
+        }
+
+        @media screen and (max-width: 121px){
+            font-size: 3px;
+        }
+
+        @media screen and (max-width: 121px){
+            font-size: 3px;
+        }
+
+        @media screen and (max-width: 82px){
+            font-size: 1px;
+        }
+    }
+
+}
